@@ -1,0 +1,1 @@
+C:\steamcmd\steamcmd +login anonymous +force_install_dir C:\Servers\KillingFloor2 +app_update 232130 +quit

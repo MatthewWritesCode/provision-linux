@@ -1,0 +1,1 @@
+start C:\Servers\KillingFloor2\Binaries\win64\kfserver kf-bioticslab MaxPlayers=6 Difficulty=1 Port=7787 QueryPort=26935 WebAdminPort=8000
