@@ -1,0 +1,15 @@
+/boot/
+/cdrom/
+/dev/
+/home/.ecryptfs
+/home/*/.cache/
+/lost+found/
+/mnt/sda1/
+/mnt/sda2/
+/mnt/nvme0n1p4/
+/mnt/nvme0n1p7/
+/media/
+/proc/
+/run/
+/sys/
+/tmp/
