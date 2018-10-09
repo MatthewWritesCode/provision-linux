@@ -6,7 +6,7 @@
 ####################################
 
 # What to backup.
-backup_files="/home /etc /opt --exclude=/home/.ecryptfs --ignore-failed-read"
+backup_files="/home /etc /opt --exclude=/home/.ecryptfs --exclude=/home/*/.cache --ignore-failed-read"
 
 # Where to backup to.
 dest="$1"
@@ -22,7 +22,7 @@ date
 echo
 
 # Backup the files using tar.
-tar czf $dest/$archive_file $backup_files
+tar -czf $dest/$archive_file $backup_files
 
 # Print end status message.
 echo
